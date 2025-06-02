@@ -6,7 +6,7 @@ info:
 servers:
   - url: https://strava-gpt-one.vercel.app
 paths:
-  /activities:
+  /api/activities:
     get:
       operationId: getActivities
       summary: Get the user's recent Strava activities
