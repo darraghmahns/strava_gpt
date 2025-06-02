@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
-app.mount("/.well-known", StaticFiles(directory=".well-known"), name="static")
+app.mount(".well-known", StaticFiles(directory=".well-known"), name="static")
 
 
 CLIENT_ID = os.getenv("STRAVA_CLIENT_ID")
