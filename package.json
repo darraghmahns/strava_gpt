@@ -1,13 +1,9 @@
 {
-  "name": "gpt-strava-backend",
+  "name": "strava-gpt",
   "version": "1.0.0",
-  "main": "api/index.js",
-  "scripts": {
-    "start": "node api/index.js"
-  },
   "dependencies": {
-    "axios": "1.8.2",
-    "dotenv": "16.4.6",
-    "express": "5.0.0"
+    "axios": "^1.8.2",
+    "dotenv": "^16.4.6",
+    "express": "^5.0.0"
   }
 }
